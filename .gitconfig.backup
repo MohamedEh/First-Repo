@@ -1,0 +1,21 @@
+[core]
+	editor = \"C:/Program Files (x86)/GitExtensions/GitExtensions.exe\" fileeditor
+[user]
+	name = MohamedEh
+	email = mohamedeldeeb19@gmail.com
+[diff]
+	guitool = kdiff3
+[merge]
+	guitool = kdiff3
+[pull]
+	rebase = false
+[fetch]
+	prune = false
+[rebase]
+	autoStash = false
+	autosquash = false
+	updateRefs = false
+[difftool "kdiff3"]
+	cmd = \"\" \"$LOCAL\" \"$REMOTE\"
+[mergetool "kdiff3"]
+	cmd = \"\" \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
